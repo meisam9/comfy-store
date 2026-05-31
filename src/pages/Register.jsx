@@ -20,7 +20,7 @@ const Register = () => {
             to="/login"
             className="ml-2 link link-hover link-primary capitalize"
           >
-            register
+            Login
           </Link>
         </p>
       </Form>
