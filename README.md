@@ -2,7 +2,7 @@
 
 A clean, minimal e‑commerce starter built with React, Vite, Tailwind CSS and DaisyUI — a learning project with completed challenge notes archived separately.
 
-Live:
+Live: [comfy sore](https://comfy-store-gold-one.vercel.app/)
 
 Overview
 
