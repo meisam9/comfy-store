@@ -4,6 +4,10 @@ import { toast } from "react-toastify";
 import { logoutUser } from "../features/user/userSlice";
 import { clearCart } from "../features/cart/cartSlice";
 const url = "/products?featured=true";
+// Add this helper at the top of loaders.js
+const shouldFetch =
+  import.meta.env.VERCEL_SKIP_LOADERS !== "true" &&
+  typeof window !== "undefined";
 const featuredProductQuery = {
   queryKey: ["featuredProducts"],
   queryFn: () => customFetch(url),
